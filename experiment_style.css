@@ -1,0 +1,33 @@
+body { background: #808080; margin: 0; }
+.jspsych-display-element, .jspsych-content-wrapper { background: #808080; }
+
+.box {
+  background: #f4f4f2; border-radius: 10px;
+  padding: 28px 36px; max-width: 660px; margin: 0 auto;
+  font-size: 16px; line-height: 1.75; color: #1a1a1a; text-align: left;
+}
+.box h2 { font-size: 20px; margin: 0 0 16px; text-align: center; color: #111; }
+.box ul { padding-left: 20px; }
+
+.keys { display: flex; gap: 20px; justify-content: center; margin: 20px 0; }
+.key {
+  background: #222; color: #fff; border-radius: 8px;
+  padding: 10px 28px; font-size: 18px; font-weight: bold;
+  min-width: 120px; text-align: center;
+}
+.key span { display: block; font-size: 12px; font-weight: normal; color: #aaa; margin-top: 2px; }
+
+.fb-yes { color: #1a7a1a; font-size: 52px; font-weight: bold; }
+.fb-no  { color: #c00;    font-size: 52px; font-weight: bold; }
+
+.resp-prompt { text-align: center; padding: 40px 0; }
+
+.form-row { display: flex; align-items: flex-start; gap: 12px; margin: 12px 0; flex-wrap: wrap; }
+.form-row label { font-size: 15px; min-width: 200px; padding-top: 6px; }
+.form-row select, .form-row input {
+  padding: 6px 10px; font-size: 15px;
+  border: 1px solid #bbb; border-radius: 5px; min-width: 180px;
+}
+
+.warn-box { border: 2px solid #c00 !important; }
+.warn-box h2 { color: #c00 !important; }
